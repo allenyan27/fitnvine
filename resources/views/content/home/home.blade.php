@@ -3,8 +3,8 @@
 @section('content')
 <!-- =====  HEADER END  ===== -->
     <!-- =====  BANNER STRAT  ===== -->
-    <div class="banner">
-        <div class="main-banner owl-carousel">
+    <div class="owl-carousel owl-slide ">
+        <div class="owl-carousel owl-slide-animated">
           <div class="item"><a href="#"><img src="{{asset('front/img/Main-banner-01.jpg')}}" alt="Main Banner" class="img-responsive" /></a></div>
           <div class="item"><a href="#"><img src="{{asset('front/img/main-banner-02.jpg')}}" alt="Main Banner" class="img-responsive" /></a></div>
         </div>
