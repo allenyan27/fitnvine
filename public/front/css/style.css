@@ -2459,6 +2459,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 /* =====  RESPONSIVE CSS START  =====*/
 
 @media (max-width:1199px) {
+    
     .four-col-work .grid-item {
         width: 33.33%;
     }
@@ -2718,6 +2719,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 /*-----------------------------------*/
 
 @media (max-width:650px) {
+    hr{
+        display: none;
+    }
     .logo {
         margin-left: 50px;
     }
@@ -2728,6 +2732,12 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         width: 100%;
         margin: 0;
     }
+    section.content{
+        margin-top:240px;
+    }
+    .shopcart{
+        background: black;
+    }
 
 }
 
@@ -2735,6 +2745,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 @media (max-width:480px) {
 
+    hr{
+        display: none;
+    }
     .navbar-header,.shopcart {
         width: 100%;
         text-align: center;
