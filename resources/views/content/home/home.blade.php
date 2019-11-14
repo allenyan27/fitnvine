@@ -1,6 +1,7 @@
 @extends('content.home.home')
 
 @section('content')
+<a id="scrollup"></a>
 <!-- =====  HEADER END  ===== -->
     <!-- =====  BANNER STRAT  ===== -->
     <div class="owl-carousel owl-slide ">
