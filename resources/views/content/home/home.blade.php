@@ -1,17 +1,18 @@
-@extends('content.home.home')
+@extends('layouts.index')
 
 @section('content')
 <a id="scrollup"></a>
 <!-- =====  HEADER END  ===== -->
     <!-- =====  BANNER STRAT  ===== -->
-    <div class="owl-carousel owl-slide ">
-        <div class="owl-carousel owl-slide-animated">
+    <div class="banner">
+        <div class="main-banner owl-carousel">
           <div class="item"><a href="#"><img src="{{asset('front/img/Main-banner-01.jpg')}}" alt="Main Banner" class="img-responsive" /></a></div>
           {{-- <div class="item"><a href="#"><img src="{{asset('front/img/main-banner-02.jpg')}}" alt="Main Banner" class="img-responsive" /></a></div> --}}
         </div>
-      </div>
+    </div>
       <!-- =====  BANNER END  ===== -->
       <!-- =====  CONTAINER START  ===== -->
+      <section class="content">
       <div id="wrapper category">
         <div class="container">
           <div class="row mt_50">
@@ -48,7 +49,7 @@
           </div>
         </div>
       </div>
-
+      </section>
       <div class="container">
         <!-- =====  SUB BANNER  STRAT ===== -->
         <div class="row ">
