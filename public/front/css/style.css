@@ -1073,6 +1073,7 @@ label.checkme {
     left: 0;
     background-color: #fff;
     width: 100%;
+    z-index: 10;
 }
 
 /* ----------------------------------------------
@@ -2850,7 +2851,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         display: block;
     }
     #scrollup{
-        display: none;
+        display: none !important;
     }
 }
 
@@ -2872,7 +2873,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         display: block;
     }
     #scrollup{
-        display: none;
+        display: none !important;
     }
 }
 
