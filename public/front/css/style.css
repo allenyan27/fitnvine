@@ -1099,6 +1099,7 @@ label.checkme {
 .menu-mobile nav a span {
     display: block;
     margin: 0;
+    line-height: 1.5;
 }
 .menu-mobile .mobile-logo {
     width: 20px;
