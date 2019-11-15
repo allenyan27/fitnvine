@@ -1,6 +1,6 @@
 
   <!-- =====  LODER  ===== -->
-<div class="loder"></div>
+
 <div class="wrapper">
     <div id="subscribe-me" class="modal animated fade in" role="dialog" data-keyboard="true" tabindex="-1">
         <div class="newsletter-popup"> <img class="offer" src="{{asset('front/img/newsbg.jpg') }}" alt="offer">
