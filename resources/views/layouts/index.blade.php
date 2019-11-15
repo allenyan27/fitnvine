@@ -39,6 +39,13 @@
     
 @include('content.home.footer')
 
+<div class="menu-mobile">
+  <ul>
+    <li>Home</li>
+    <li>Shop</li>
+  </ul>
+</div>
+
   <script src="{{asset('front/js/jQuery_v3.1.1.min.js')}}"></script>
   <script src="{{asset('front/js/bootstrap.min.js')}}"></script>
   {{-- <script src="{{asset('front/js/owl.carousel.min.js')}}"></script>
