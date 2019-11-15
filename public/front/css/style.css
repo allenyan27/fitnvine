@@ -1060,6 +1060,21 @@ label.checkme {
     width: 200px;
 }
 
+.menu-mobile ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.menu-mobile{
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
 /* ----------------------------------------------
 	2.3 megamenu
 ----------------------------------------------- */
@@ -1233,6 +1248,9 @@ label.checkme {
     }
     .search-overlay form {
         margin-top: -47px;
+    }
+    .menu-mobile{
+        display:none;
     }
 }
 .search-box input.input-text {
@@ -1642,7 +1660,7 @@ input#amount {
 #product-tab .owl-nav, .blog .owl-nav, .latest_pro .owl-nav {
     right: 10px;
 }
-#product-thumbnail .owl-nav .owl-prev, {
+#product-thumbnail .owl-nav .owl-prev {
     left: 0;
 }
 
@@ -2475,6 +2493,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     .newsletters input {
         width:280px;
     }
+    .menu-mobile{
+        display: none;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .about-title {
@@ -2557,6 +2578,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     .footer-title {
         cursor: pointer;
         position: relative;
+    }
+    .menu-mobile{
+        display: none;
     }
 }
 
@@ -2714,6 +2738,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     .copyright-part{
         margin: 10px 0;
     }
+    .menu-mobile{
+        display: none;
+    }
 }
 
 /*-----------------------------------*/
@@ -2737,6 +2764,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     }
     .shopcart{
         background: black;
+    }
+    .navbar{
+        display: none;
     }
 
 }
@@ -2816,6 +2846,12 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     .newsletters input {
         width: 310px;
     }
+    .menu-mobile{
+        display: block;
+    }
+    #scrollup{
+        display: none;
+    }
 }
 
 @media (max-width:360px) {
@@ -2830,7 +2866,15 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         padding: 6px;
     }
     .newsletters input {
-    width: 150px;
+        width: 150px;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    #scrollup{
+        display: none;
     }
 }
+
+
     /* =====  END RESPONSIVE CSS  =====*/
