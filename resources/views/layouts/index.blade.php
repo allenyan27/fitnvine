@@ -40,10 +40,60 @@
 @include('content.home.footer')
 
 <div class="menu-mobile">
-  <ul>
-    <li>Home</li>
-    <li>Shop</li>
-  </ul>
+  {{-- <ul>
+    <li> 
+      <div>
+        <span><a href="#"><img src="{{asset('front/img/icon/home.png')}}"/></a></span>
+        <span><a href="#">Home</a></span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><a href="#"><img src="{{asset('front/img/icon/list.png')}}"/></a></span>
+        <span><a href="#">kategori</a></span>
+      </div>
+    </li>
+    <li> 
+      <div>
+        <span><a href="#"><img src="{{asset('front/img/icon/shopping-bag.png')}}"/></a></span>
+        <span><a href="#">Tas</a></span>
+      </div>
+    </li>
+    <li> 
+      <div>
+        <span><a href="#"><img src="{{asset('front/img/icon/like.png')}}"/></a></span>
+        <span><a href="#">Wishlist</a></span>
+      </div>
+    </li>
+    <li> 
+      <div>
+        <span><a href="#"><img src="{{asset('front/img/icon/avatar.png')}}"/></a></span>
+        <span><a href="#">Akun</a></span>
+      </div>
+    </li> 
+  </ul> --}}
+    <nav class="">
+      <a href="">
+        <span class="mobile-logo"><img src="{{asset('front/img/icon/home.png')}}"/></span>
+        <span class="mobile-text">Home</span>
+      </a>
+      <a href="">
+        <span class="mobile-logo"><img src="{{asset('front/img/icon/list.png')}}"/></span>
+        <span class="mobile-text">Category</span>
+      </a>
+      <a href="">
+        <span class="mobile-logo"><img src="{{asset('front/img/icon/shopping-bag.png')}}"/></span>
+        <span class="mobile-text">Bag</span>
+      </a>
+      <a href="">
+        <span class="mobile-logo"><img src="{{asset('front/img/icon/like.png')}}"/></span>
+        <span class="mobile-text">Wishlist</span>
+      </a>
+      <a href="">
+        <span class="mobile-logo"><img src="{{asset('front/img/icon/avatar.png')}}"/></span>
+        <span class="mobile-text">Account</span>
+      </a>
+    </nav>
 </div>
 
   <script src="{{asset('front/js/jQuery_v3.1.1.min.js')}}"></script>
