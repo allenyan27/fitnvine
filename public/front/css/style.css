@@ -2516,8 +2516,12 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 
 /* =====  RESPONSIVE CSS START  =====*/
-
-@media (max-width:1199px) {
+@media screen and (max-width:1440px) {
+    .menu-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width:1199px) {
     
     .four-col-work .grid-item {
         width: 33.33%;
@@ -2542,6 +2546,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     .about-title {
         font-size: 40px;
         line-height: 55px;
+    }
+    .menu-mobile{
+        display: none;
     }
 }
 
@@ -2807,7 +2814,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         background: black;
     }
     .navbar{
-        display: none;
+        display: block;
     }
 
 }
@@ -2891,7 +2898,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         display: block;
     }
     #scrollup{
-        display: none !important;
+        display: none ;
     }
 }
 
@@ -2913,7 +2920,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
         display: block;
     }
     #scrollup{
-        display: none !important;
+        display: none ;
     }
 }
 
