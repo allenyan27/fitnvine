@@ -59,7 +59,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
                             <div class="main-search mt_40">
-                                <input id="search-input" name="search" value="" placeholder="Search" class="form-control input-lg" autocomplete="off" type="text">
+                                <input id="search-input" name="search" value="" placeholder="" class="form-control input-lg" autocomplete="off" type="text">
                                 <span class="input-group-btn">
                                     <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
                                 </span> 
